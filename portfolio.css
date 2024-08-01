@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    
+    box-sizing: border-box;
+}
+.sec1{
+    background-color: rgb(150, 202, 207);
+}
+.list{
+    list-style:none;
+    list-style-type: none;
+    position: relative;
+    padding: 5px;
+    text-decoration: none ;
+    padding-bottom: 0px;
+}
+.header{
+    color: white;
+    display: inline;
+    padding-top: 5px;
+    letter-spacing: 5px;
+    font-size: 50px;
+    font-style: normal;
+    padding-bottom: 0px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.ullist{
+    display: flex;
+    margin-top: 35px;
+    padding-bottom: 0px;
+    font-size:large;
+}
+.a{
+    text-decoration: none;
+    text-align:end;
+    color: rgb(49, 51, 51);
+    font-weight:bold  ;
+    padding-bottom: 2px;
+    
+}
+.subparent{
+    display: flex;
+    padding-bottom: 0px;
+    justify-content: space-between;
+}
+.port{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5px;
+}
+.a:hover{
+  color: whitesmoke;
+  border-bottom: 2px rgb(49, 51, 51);;
+}
+.greet{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:xx-large;
+    color: rgb(49, 51, 51);
+    margin: 2px;
+    margin-left: 10%;
+}
+.name{
+    margin: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  80px;;
+    color: rgb(49, 51, 51);
+    margin-left:30px;
+    margin: 25px;
+}
+.design{
+    margin: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: rgb(49, 51, 51);
+    font-weight: bold;
+    margin-left: 80px; ;
+   
+}
+.picdetail{
+    display: flex;
+}
+.button{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(49, 51, 51);
+    font-weight: 100;
+    font-size: x-large;
+    letter-spacing: 2px;
+    border-radius:25px;
+    padding: 20px;
+    
+}
+.btn{margin-top: 3%;
+   text-align:center;
+   display: block;
+   margin-bottom: 3em;
+}
+   
+.button:hover{
+    background-color:rgb(0, 0, 0);
+    color: whitesmoke;
+}
+
+ .image{
+    width: 50%;
+    height: 300px;
+    border-radius: 25px;
+    margin: 50px;
+    margin-left: 90px;
+    margin-top: 35px;
+ }
+ .details{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+ }
+.img{
+    margin-top: 2px;
+    margin-left: 45px;
+}
+/*ABOUT*/
+
+.About{
+    background-color:rgb(237, 251, 255);
+}
+.about{
+    color:rgb(15, 25, 26); 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 20px;
+}
+.description{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:large;
+    text-decoration: wavy;
+    display: block;
+    margin: 10px;
+}
+.desc{
+    border: solid rgb(13, 15, 15); 
+    padding: 10px;
+    margin-top: 20PX;
+    
+}
+.desc{
+   margin: 5%;
+}
+.skill{
+    color:rgb(47, 49, 49);  ;
+    text-align: center;
+}
+.expert{
+    font-size:large ;
+    margin: 5%;
+}
+.slist{
+    list-style-type: none;
+    border:solid rgb(13, 15, 15);
+    padding: 20px;
+}
+.mygoal{
+    font-size:large ;
+    margin: 5%;
+    border:solid rgb(13, 15, 15);
+    padding: 20px;
+    text-decoration: wavy;
+    margin-top: 25px;
+}
+.java{
+    height: 70%;
+    width: 50%;
+    transform: rotate(0deg);
+    transition-delay: 4sec;
+}
+.java2skill{
+    display: flex;
+    justify-items: center;
+}
+.logo{
+    display: flex;
+    width: 36%;
+    height: 80%;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 0%;
+}
+.mygo{
+    margin-top: 5px;
+    text-align: center;
+}
+.htmlcss{
+    display: flex;
+    height: 70%;
+    width: 50%;
+    border-radius: 25px;
+    
+    align-self: center;
+}
+.HCS{
+    display: flex;
+}
+.hcs{
+    display: flex;
+    margin-top: 6.5%;
+    height: 35%;
+    width:90%;
+    justify-content: center;
+    transform: rotate(25deg);
+}
+.mail {
+    color: rgb(245, 0, 171);
+}
+.linkin{
+    list-style-type: none;
+    color: rgb(245, 0, 171);
+}
+.li1{
+    margin: 5px;
+}
+.lists{
+    display: flex;
+    list-style-type: none;
+   justify-content:center;
+}
+a:link{
+    text-decoration: none;
+}
+.cofjava{
+    display: flex;
+    width: 55%;
+    height: 50%;
+    border-radius: 25px;
+    justify-content: center;
+    margin-top: 18%;
+}
+.descoff{
+    display: flex;
+}
+/*CONTACT*/
+.section2{
+    background:linear-gradient(#fbc2eb,#a6c1ee) ;*/
+    /*background-color: rgb(128, 126, 126);*/
+}
+
+.con-h{
+    text-align: center;
+    text-transform:none;
+    text-shadow: 2px 2px 5px rgb(218, 80, 223);
+}
+.formdetails{
+    padding: 20px;
+    border-radius:  35px ;
+    border-style:hidden;
+    border: solid rgb(4, 30, 43); 
+    width: 35%;
+}
+.ipdetail{
+    display: flex;
+    flex-direction: column;
+}
+.innerform{
+    margin: 5%;
+}
+.all{
+    padding: 10px;
+}
+
+#sub1{
+    color:rgb(4, 30, 43);
+    margin-top: 2%;
+    padding: 1.5%;
+    border-radius: 35px;
+    width: 20%;
+    border:solid rgb(4, 30, 43);;
+    
+}
+.sub1:hover{
+    background-color: rgb(209, 116, 212);
+}
+#contact1{
+    margin-bottom: 2%;
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5%;
+    color: rgb(4, 30, 43);
+}
+.nam{
+    font-size: xx-large;
+    color: rgb(4, 30, 43);
+    margin-right: 2%;
+}
+
+/*Gallery*/
+#section2{
+    background-color: whitesmoke;
+}
+.glry{
+    text-align: center;
+    font-size: 3rem;
+    margin:2%;
+    color: rgb(5, 5, 31);
+}
+.head{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    text-shadow:  2px 2px 5px rgb(84, 22, 255);
+}
+.wholegallery{
+    width: 100%;
+}
+.alt{
+    border-radius: 25px;
+    width:50%;
+}
+.card{
+    position: relative;
+    width: 50%;
+    margin: 2%;
+    margin-left: 38%;
+    margin-top: 5%;
+}
+.front{
+    position: absolute;
+    top: 20%;
+    left: 22%;
+    color:rgb(255, 255, 255);
+   font-size: large;
+}
+
+.develop{
+    position: absolute;
+    font-size:15px;
+    font-family: ;
+    top: 45%;
+    left: 4%;
+    color:rgb(255, 255, 255);
+}*/
+.twoinone{
+    display: flex;
+  
+}
+.alter{
+    width: 50%;
+    border-radius: 25px;
+}
+#front{
+    top: 48%;
+    left:3%;
+    color: rgb(255, 255, 255);
+}
+#alt{
+    width: 51%;
+}
+#dog{
+    position: absolute;
+    width: 51%;
+    color: rgb(255, 255, 255);
+    top: 15%;
+    
+}
+.front1{
+    top:34% ;
+    left: 3%;
+}
+span{
+    color: rgb(131, 5, 5);
+}
